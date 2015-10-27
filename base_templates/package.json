@@ -1,0 +1,30 @@
+{
+  "name": "projekt-name",
+  "version": "0.0.0",
+  "description": "description",
+  "author": {
+	"name":"Charles Lam",
+	"mail":"charles.lam@gmx.at",
+	"url":"http://.../"
+  },
+  "scripts": {
+    "test": "...",
+    "start": "node app.js",
+    "predeploy": "echo im about to deploy",
+    "postdeploy": "echo ive deployed",
+    "prepublish": "echo before publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://.../"
+  },
+  "bugs": {
+	  "url": "https://.../issues"
+  },
+  "keywords": [],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
+

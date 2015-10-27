@@ -1,0 +1,29 @@
+{
+  "name": "dev-book",
+  "version": "0.1.20150530",
+  "description": "Structure and Examples for Development Book",
+  "author": {
+    "name": "Charles Lam",
+    "mail": "charles.lam@gmx.at",
+    "url": "https://github.com/akumagamo"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test",
+    "start": "node app.js",
+    "predeploy": "echo im about to deploy",
+    "postdeploy": "echo ive deployed",
+    "prepublish": "echo before publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akumagamo/dev_book"
+  },
+  "bugs": {
+    "url": "https://github.com/akumagamo/dev_book/issues"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
